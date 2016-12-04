@@ -1,10 +1,7 @@
 import React from 'react';
+import Progress from './components/Progress';
+require('./css/App.css');
 
-require('./App.css');
-
-export default () => <h1>Hello World</h1>;
-
-/*
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -12,8 +9,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <h1>Hello World</h1>
+      <Progress></Progress>
     );
   }
 }
-*/
